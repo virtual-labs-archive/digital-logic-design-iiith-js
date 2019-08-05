@@ -1,0 +1,88 @@
+#+TITLE: Index to Pattern Recognition
+#+AUTHOR: VLEAD
+#+DATE: [2019-06-24 Mon]
+#+SETUPFILE: ./org-templates/level-0.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+* Introduction
+  This document captures all the instructions to implement
+  and run an experiment.
+
+* Repository Structure
+  #+BEGIN_EXAMPLE
+  |-- init.sh
+  |-- makefile
+  |-- README.org
+  |-- .gitignore
+  |-- src/
+      |-- index.org
+      |-- lab/
+      |   |-- Introduction.html
+      |   |-- quiz.html
+      |   |-- quiz-data.json
+      |   |-- exp1/
+      |       |-- docs/
+      |       |   |-- project-documentation.pdf
+      |       |   |-- procedure.pdf
+      |       |
+      |       |-- Introduction.html  
+      |       |-- exp1_simulation.html
+      |       |-- exp1_simulation.css
+      |       |-- exp1_simulation.js
+      |       |-- quiz.html
+      |       |-- quiz-data.json
+      |       |-- test-cases/
+      |           |-- test-cases-for-project1.pdf
+      |       .
+      |       .
+      |       .
+      |-- libs/
+      |   |-- Chart.js
+      |         .
+      |         .
+      |         .
+      |-- quiz/
+          |-- evaluate.js
+          |-- index.css
+          |-- label.css
+          |-- quiz-data.json
+
+  #+END_EXAMPLE
+* Steps to run an experiment
+  *STEP 1 :* Clone the experiment repository
+  #+BEGIN_EXAMPLE
+  git clone https://github.com/vitual-labs/<EXPERIMENT>.git
+  #+END_EXAMPLE
+
+  *STEP 2 :* Change directory to experiment repo
+  #+BEGIN_EXAMPLE
+  cd <EXPERIMENT>
+  #+END_EXAMPLE
+
+  *STEP 3 :* Removes the build directory and builds the sources
+  #+BEGIN_EXAMPLE
+  make -k build
+  #+END_EXAMPLE
+  
+  *STEP 4 :* Run the experiment server
+  #+BEGIN_EXAMPLE
+  make -k run
+  #+END_EXAMPLE
+  
+  To include quiz sources as a library in experiment refer
+  [[https://github.com/virtual-labs/srip-quiz/blob/develop/docs/user-manual.org][quiz user manual]].
+  
+  To remove the build 
+  #+BEGIN_EXAMPLE
+  make -k clean-build
+  #+END_EXAMPLE
+
+  To remove the srip repo from experiment 
+  #+BEGIN_EXAMPLE
+  make -k clean-srip-quiz
+  #+END_EXAMPLE
+
+  
+
