@@ -1,0 +1,191 @@
+Multiplexer
+
+ Welcome to the Digital Logic Design Lab. Here you can make basic combinational and sequential digital circuits of your choice and simulate them.Prior knowledge about basic logic gates is expected from a theory course.
+
+* The objective of this experiment is to make various multiplexers.
+* First of all make 2 bits multiplexer then use it to make 4 bits multiplexer.
+
+
+The page consist of mainly two pannels: Left Pannel, Right Pannel.
+
+    Left Pannel:You can change the settings from the left pane.
+
+        Frequency of Oscillator :The frequency input changes the frequency of the oscillator named as OSC on the simulation panel
+
+        Modules:The checkboxes are to show you the expected output of your circuit. An abstracted version of the circuit will appear in the simulation. Please try to replicate the output.
+
+        Save Changes:Click on the button to save your settings. You need to do it, in order for the settings to apply.
+
+        Clear Changes:Click on the button to discard all your settings.
+        WARNING: When you click on save settings or clear settings, your circuit gets cleared automatically, so please choose your settings before hand.
+
+        If you get stuck, and are not able to make the multiplexer, the load MUX and load 8X1 MUX buttons will help you out.
+
+        Click the "Clear Workspace" button to clear the simulation.
+
+    Right Pannel: The right pane contains the workspace where you will simulate your experiment.
+        The toolbox on the left contains the pre-made logic circuits you will require to implement Multiplexer.
+
+        Drag them on the right, to place them on your breadboard.
+
+        The left part of the abstracted circuit contains the inputs, and the right side the outputs.
+
+        Click on the circle of the input or output to another input/output to make a connection.
+        You can connect only one line to an input, but an output can have multiple lines.
+        The "DC" icon outputs digital 1 at all times, connnect it to:
+
+        -push on: to simulate the 1 only when you're pressing on the button
+
+        -push off: to simulate 0 when you're pushing the button
+
+        -toggle: to toggle the output between 1 and 0.
+
+        The OSC supplies 1 and 0 in a specific frequency which you set in the settings pane.
+
+        The joint icon is just a connection, to make your connections look neater, as the lines from an output to an 
+
+        input are straight.
+
+        The DSO displays the output in a graph format for easy verification. It has 8 inputs, you can choose to use any number of them. If you want more, just drag drop more of them.
+
+Project 1 Documentation:
+
+ In electronics, a multiplexer or mux is a device that selects one of several analog or digital input signals and forwards the selected input into a single line. Multiplexers were logically designed and used as electronic selector switches. A multiplexer of 2n inputs has n select lines, which are used to select which input line to send to the output.Multiplexers are mainly used to increase the amount of data that can be sent over the network within a certain amount of time and bandwidth. 
+
+
+*Procedure:
+
+ 1 With The help of Theory Page , try to build the Multiplexer Circuit.
+ 2 First of all build the 2 X 1 Multiplexer.
+ 3 Then use it to build the 8 X 1 multiplexer
+
+*Languages Used:
+
+    HTML
+    CSS
+    Javascript
+
+*Libraries Used:
+
+    Bootstrap
+    jQuery
+
+*Module Used
+
+    Simcir github link
+
+*Implementation:
+The simcir module
+
+The simcir module basically searches for a div with class named "simcir". It reads the json data inside that div, and transforms it into a live simulation.
+
+The json data contains the following things:
+
+    width(integer)- width of the simulator on the screen in px
+    height(integer)- height of the simulator in px
+    showToolbox(boolean)- decides if the toolbox(the left panel) is to be displayed or not.
+    toolbox(array)- items/tools to be shown in toolbox
+    devices(array)- devices to be displayed on the breadboard
+    connectors(array)- connections between the simulated tools/items.
+
+*Overview
+
+More circuits/tools have been added to the simulation, and premade circuit data is created to load MUX with the click of a button.
+Files
+ommk.js
+Overview:
+
+Added more functionality to the existing module.
+Technicalities
+
+    Incorported the function registerDevice() which is defined in the module simcir to add more items/tools that are required by the simulation
+    This file manages all the local variables and remembers the settings to be applied on refreshes of the page.
+Technicalities:
+
+    Made the width of the simulator dynamic by using the screen size of the pc which is running the simulation to utilize maximum width possible without scrolling
+    This file uses 'sessionStorage' variables(which uses key value pairs to store data), which remain as long as the tab is open, and do not clear on page refreshes. These variables are used to store the settings of the user.
+    Since the simcir library uses the json data provided at the start, and then replaces it by the simulation, we need to refresh the page and set new json data in the 'simcir' div.
+    Different settings are stored in different key-value pairs in sessionStorage.
+        'Frequecy of Oscillator'- The frequency of OSC
+        'Load MUX' - Click on the button to load 
+        'Load 8x1 MUX' - Click on button to load
+
+    The file also handles all the click events on the webpage to make the buttons interactable
+
+*Test Cases
+Test Case 1
+Dynamic simulator size
+
+    Simulator loads according to different screen size
+
+    Simulator does not resize itself when the window is resized when the simulator is already loaded, a refresh is required.
+
+Test case partially passed.
+Test Case 2
+Input of the frequency
+
+Input: words Output: not accepted
+
+Test case passed.
+Test Case 3
+Input of the frequency
+
+Input: numbers between 1 and 10 Output: accepted
+
+Test case passed.
+Test Case 4
+Input of the frequency
+
+Input: numbers not in the range of 1-10 Output: error shown
+
+Test case passed
+Test Case 5
+Checkboxes
+
+Input: click Output: toggle
+
+Test case passed.
+Test Case 6
+Save Settings button
+
+Input: click Output: Page refresh with new settings applied
+
+Test case passed.
+Test Case 7
+Clear Settings
+
+Input: click Output: page refresh with default settings
+
+Test case passed.
+Test Case 8
+Load
+
+Input: click Output: page refresh with couter loaded with no interaction(with settings intact).
+
+Test case passed.
+Test Case 9
+Load Ring counter
+
+Input: click Output: page refresh with ring couter loaded with no interaction(with settings intact).
+
+Test case passed.
+Test Case 10
+Clear Workspace
+
+Input: click Output: page refresh with blank breadboard and interaction enabled(with settings intact).
+
+Test case passed.
+Test Case 11
+
+Input: drag/drop/connections Output: everything working correctly.
+
+Test case passed.
+
+
+
+
+
+
+
+
+

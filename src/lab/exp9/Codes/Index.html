@@ -1,0 +1,135 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+     <title>Multipliers</title>
+</head>
+<body id="Bd" >
+  <link rel="stylesheet" type="text/css" href="../Libraries/simcir.css" >
+     <link rel="stylesheet" type="text/css" href="../Libraries/simcir-basicset.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <div id="div"class="container-fluid">
+          <div class="row col-sm-12" align="center">
+            <h1 style="margin-top: 1%; text-align: center;"><b>Multipliers</b></h1>
+          <p style="margin-top: 1%; text-align: center; font-size: 180%;"><b>Simulate a 4 bits multiplication<a data-toggle="modal" data-target="#exampleModal">(Click Here to see the instructions)</a></b></p>
+          <hr style="margin-top: 1%; border-width: 2px; ">
+       </div>
+          <div id="main" class="col-sm-2 ">
+                  <div id="div1">
+                    <h2 align="center"><b>Settings</b></h2>
+                    <hr>
+
+                        <button type="button" onClick="hello4()" class="button button3">Clear</button>
+                        <button type="button" class="button button1">Load_it</button>
+                          <select id="sel" class="form-control" onchange="change();">
+                                 <option disabled selected value>Select option</option>
+                                  <option value="1">parallel_shift_reg</option>
+                                  <option value="2">4_bit_adder</option>
+                           </select>  
+ 
+              </div>
+          </div>  
+    <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="h1" class="modal-title" id="exampleModalLongTitle"><b>Multiplers</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p id="p"><br  >Welcome to Virtual lab,An MHRD Govt of India Initiative.</br>The main Objective of this experiment is design and simulate a circuit for the 4 bit multiplication.To Construct a 4 bit Multiplers,the component required are :
+        <li id="p">Parallel shift register.</li>
+        <li id="p">4 bit adder.</li>
+        <li id="p">Quad(4) 2 input And gate.</li>
+      </p>
+        <p id="p1">Following instruction & diagram will help you build the circuit.</p>  
+   		<li><br><p id="p3"><strong>4 Bit Adder</strong></p></br>
+   			<img src="Images/FullAdder.png" width="870px;">   
+   		</li>
+        <li><br><p id="p3"><strong>Parallel Shift Register</strong></p></br>
+        		<img src="Images/PSReg.png" width="870px;">
+        	</li>
+        <hr>
+          <p id="p1">
+           <br>The right side consist of circuit board and Left side consists the input panel.</br>
+           <li><b>Circuit Board</b></li>
+           <ol>
+             <li>
+              <p>The toolbox on the left contains the pre-made logic circuits you will require to build a 4 bit multiplier.</p>
+            </li>
+             <li>
+                  <p>Drag them on the right, to place them on your breadboard.</p>
+                </li>
+                <li>
+                  <p>The left part of the abstracted circuit contains the inputs, and the right side the outputs.</p>
+                </li>
+                <li>
+                  <p>Click on the circle of the input or output to another input/output to make a connection.</p>
+                </li>
+                <li>
+                  <p>The "DC" icon outputs digital 1 at all times, connnect it to:</p>
+                  <ul>
+                    <li>
+                      <p>push on: To simulate the 1 only when you're pressing on the button.</p>
+                    </li>
+                    <li>
+                      <p>push off: To simulate 0 when you're pushing the button.</p>
+                    </li>
+                    <li>
+                      <p>Toggle: To toggle the output between 1 and 0.</p>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <p>The OSC supplies 1 and 0 at frequency 1 Hz.</p>
+                </li>
+                <li>
+                  <p>The joint icon is just a connection, to make your connections look neater, as the lines from an output to an input are straight.</p>
+                </li>
+                <li>
+                  <p>The DSO displays the output in a graph format for easy verification. It has default 6 inputs.</p>
+                </li>
+              </ol>
+              <li><b>Input panel</b></li>
+              <ol>
+                <li>
+                  <p>Clear button to clear the circuit board.<p>
+                  </li>
+                <li>
+                  <p>Load_it button loads the circuit which is selected from the dropdown.<p>
+                  </li>
+                  <li>
+                    <p>
+                      If your are facing issue creating the circuit please go through thoery section or try using the inbuild components to build the circuit.
+                    </p>
+                  </li>
+              </ol>
+          </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="button button2" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="simcir_outer_div" id="div3" >
+          <div class=" simcir" id="div4" >
+        </div>
+      </div>    
+     
+    </div>
+    <script type="text/javascript" src="Js.js"></script>
+    <script type="text/javascript" src="../Libraries/simcir.js"></script>
+    <script type="text/javascript" src="../Libraries/simcir-basicset.js"></script>
+    <script type="text/javascript" src="../Libraries/simcir-library.js"></script>
+    <script type="text/javascript" src="../Libraries/simcir-dso.js"></script>
+
+</body>
+</html>

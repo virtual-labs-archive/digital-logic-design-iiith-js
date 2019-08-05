@@ -1,0 +1,92 @@
+{
+    "artciles": [
+        {
+            "q" : "What is a mulitplexer?",
+            "opt1" : "It is a type of decoder which decodes several inputs and gives one output",
+            "opt2" : "A multiplexer is a device which converts many signals into one",
+            "opt3" : "It takes one input and results into many output",
+            "answer" : "A multiplexer is a device which converts many signals into one",
+            "decription" :"A multiplexer (or MUX) is a device that selects one of several analog or digital input signals and forwards the selected input into a single line, depending on the active select lines."
+        },
+        {
+            "q" : " Number of bits in ALU is _________",
+            "opt1" : " 4",
+            "opt2" : " 8",
+            "opt3" : "16",
+            "answer" : "16",
+            "description" :"Data Selector is another name of Multiplexer. A multiplexer (or MUX) is a device that selects one of several analog or digital input signals and forwards the selected input into a single line, depending on the active select lines."
+        },
+        {
+            "q" : "The flag bits in an ALU is defined as ___________",
+            "opt1" : " The total number of registers  ",
+            "opt2" : "The status bit conditions",
+            "opt3" : "The total number of control lines",
+            "answer" : "The status bit conditions",
+            "description" :"In an ALU, status bit conditions are sometimes called condition code bits or flag bits. It is so called because they tend to represent the status of the respect flags after any operation. "
+        },
+        {
+            "q" : "Which is the major functioning responsibility of the multiplexing combinational circuit?",
+            "opt1" : "Decoding the binary information",
+            "opt2" : "Generation of all minterms in an output function with OR-gate",
+            "opt3" : "Generation of selected path between multiple sources and a single destination",
+            "answer" : "Generation of selected path between multiple sources and a single destination",
+            "description":"The major functioning responsibility of the multiplexing combinational circuit is generation of selected path between multiple sources and a single destination because it makes the circuit too flexible."
+        },
+        {
+            "q" : " What is the function of an enable input on a multiplexer chip?",
+            "opt1" : "Sequential logic",
+            "opt2" : "Combinational logic",
+            "opt3" : "Multiplexing",
+            "answer" : "Combinational logic",
+            "description":"The design of an ALU is based on combinational logic. Because the unit has a regular pattern, it can be broken into identical stages connected in cascade through carries."
+        },
+        {
+            "q" : "The design of an ALU is based on __________",
+            "opt1" : "Several SSI logic gates",
+            "opt2" : "Several SSI logic gates or combinational logic circuits",
+            "opt3" : "Combinational logic circuits",
+            "answer" : "Several SSI logic gates or combinational logic circuits",
+            "decription" :"A multiplexer (or MUX) is a device that selects one of several analog or digital input signals and forwards the selected input into a single line, depending on the active select lines. Since many operational behaviour can be performed by using a multiplexer. Whereas, a combinational circuit is a combination of many logic gates which makes the circuit more complex."
+        },
+        {
+            "q" : "A digital multiplexer is a combinational circuit that selects ___________",
+            "opt1" : "One digital information from several sources and transmits the selected one",
+            "opt2" : "Many digital information and convert them into one",
+            "opt3" : "Many decimal outputs and accepts the selected information",
+            "answer" : "One digital information from several sources and transmits the selected one",
+            "description" : "A digital multiplexer is a combinational circuit that selects one digital information from several sources and transmits the selected information on a single output line depending on the status of the select lines. That is why it is also known as a data selector."
+        },
+        {
+           "q" : "In a multiplexer, the selection of a particular input line is controlled by ___________",
+            "opt1" : "Data controller",
+            "opt2" : "Selected lines",
+            "opt3" : "Both data controller and selected lines",
+            "answer" : "Selected lines",
+            "description" : "The selection of a particular input line is controlled by a set of selected lines in a multiplexer, which helps to select a particular input from several sources."
+        },
+        {
+            "q" : "If the number of n selected input lines is equal to 2^m then it requires _____ select lines.",
+            "opt1" : "2",
+            "opt2" : "m",
+            "opt3" : "n",
+            "answer" : "m",
+            "description" : "If the number of n selected input lines is equal to 2^m then it requires m select lines to select one of m select lines."
+        },
+        {
+            "q" : "The ALU gives the output of the operations and the output is stored in the ________",
+            "opt1" : "Memory Devices",
+            "opt2" : "Registers",
+            "opt3" : "Flags",
+            "answer" : "Registers",
+            "description" : "Any output generated by the ALU gets stored in the registers. The registers are the temporary memory locations within the processor that are connected by signal paths to the CPU."
+        },
+        {
+            "q": "A basic multiplexer principle can be demonstrated through the use of a ___________",
+            "opt1": "Single-pole relay",
+            "opt2": "DPDT switch",
+            "opt3": "Rotary switch",
+            "answer": "Rotary switch",
+            "description" : "A basic multiplexer principle can be demonstrated through the use of a rotary switch. Since its behaviour is similar to the multiplexer. There are around 10 digits out of which one is selected one at a time and fed to the output."
+        }
+    ]
+}

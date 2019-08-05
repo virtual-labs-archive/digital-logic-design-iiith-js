@@ -1,0 +1,108 @@
+{
+  "caption": "HA",
+  "gates": [
+    {
+      "x": "810",
+      "y": "240",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,false]"
+    },
+    {
+      "x": "810",
+      "y": "300",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"xor\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,false]"
+    }
+  ],
+  "outputs": [
+    {
+      "x": "930",
+      "y": "270",
+      "colr": "0"
+    },
+    {
+      "x": "930",
+      "y": "330",
+      "colr": "0"
+    }
+  ],
+  "inputs": [
+    {
+      "x": "705",
+      "y": "255",
+      "framecount": "0",
+      "clock": "false"
+    },
+    {
+      "x": "705",
+      "y": "285",
+      "framecount": "0",
+      "clock": "false"
+    }
+  ],
+  "segments": [],
+  "wires": [
+    {
+      "x1": "780",
+      "y1": "330",
+      "x2": "810"
+    },
+    {
+      "x1": "780",
+      "y1": "270",
+      "y2": "330"
+    },
+    {
+      "x1": "750",
+      "y1": "300",
+      "y2": "360"
+    },
+    {
+      "x1": "750",
+      "y1": "360",
+      "x2": "810"
+    },
+    {
+      "x1": "870",
+      "y1": "330",
+      "x2": "930"
+    },
+    {
+      "x1": "870",
+      "y1": "270",
+      "x2": "930"
+    },
+    {
+      "x1": "720",
+      "y1": "270",
+      "x2": "810"
+    },
+    {
+      "x1": "720",
+      "y1": "300",
+      "x2": "810"
+    }
+  ],
+  "conpoints": [
+    {
+      "x": "780",
+      "y": "270"
+    },
+    {
+      "x": "750",
+      "y": "300"
+    }
+  ],
+  "diodes": [],
+  "customs": [],
+  "labels": [],
+  "segDisplays": []
+}

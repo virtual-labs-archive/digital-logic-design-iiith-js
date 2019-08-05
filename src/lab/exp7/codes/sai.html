@@ -1,0 +1,53 @@
+<!doctype html> 
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="libraries\simcirjs\simcir.js"></script>
+  <link rel="stylesheet" type="text/css" href="libraries\simcirjs\simcir.css" />
+  <script type="text/javascript" src="libraries\simcirjs\simcir-basicset.js"></script>
+  <link rel="stylesheet" type="text/css" href="libraries\simcirjs\simcir-basicset.css" />
+  <script type="text/javascript" src="libraries\simcirjs\simcir-library.js"></script>
+  <link rel="stylesheet" type="text/css" href="my.css" />
+  <script type="text/javascript" src="final1.js"></script>
+    <title></title> </head> 
+    <body> 
+        <h1 id = "caption">STATE-DIAGRAMS-DIGITAL-LOGIC-DESIGN</h1>
+    <div id = "boxes"> 
+        <div id = "middlebox"> 
+            <button style='background-color:#bababe;width:20%;height:20px'>Load</button>
+            <button style='background-color:#bababe;width:20%;height:20px'>import</button>
+            <button style='background-color:#bababe;width:20%;height:20px' onclick="inputvalues1();">save</button>
+            <button style='background-color:#bababe;width:20%;height:20px' onclick="re_load();">clear</button>
+        </div> 
+          
+        <div id = "rightbox"> 
+            <button style='background-color:#bababe;width:20%;height:20px'>Load it</button>
+            <select id="selectgate" style='width:30%'>
+                <option> </option>
+                <option value="1">circuit</option>
+                <option value="2">JK-FliFlop</option>
+              </select>
+              <button style='background-color:#bababe;width:24%;height:20px'  id="getDataBtn">import it</button>
+              <button style='background-color:#bababe;width:20%;height:20px'  id="getDataBtn1">simulate</button>
+              input values:<input type="text" id="inputt">
+              <input type="submit" onclick="inputvalues();" />
+              <p>output: <h3 id="demo"></h3> </p>
+              <p id="demo"></p>
+              <p id="demo1"></p>
+              <textarea id="dataArea1" style="width:335px; height:140px;"></textarea>
+              <textarea id="dataArea2" style="width:335px; height:140px;"></textarea>
+              
+              <input type="submit" onclick="();" />
+        </div> 
+    </div>
+     <div id="mySimcir"></div>
+    <div>
+    </div>
+    <textarea id="dataArea" style="width:1000px; height:200px;"></textarea>
+    </div> 
+    </body> 
+    </html>
