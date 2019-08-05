@@ -1,0 +1,258 @@
+{
+    "artciles": [
+        {
+            "quiztitle":"Quiz for Experiment Adder Circuit",
+            "containers":"5"
+        },
+        {
+            "q": " In parts of the processor, adders are used to calculate ____________",
+            "option": [
+                "Addresses",
+                "Table indices",
+                "both"
+            ],
+            "answer": "Option 3",
+            "description": "Adders are used to perform the operation of addition. Thus, in parts of the processor, adders are used to calculate addresses, table indices, increment and decrement operators, and similar operations."
+        },
+        {
+            "q": "Total number of inputs in a half adder is __________ ",
+            "option": [
+                "2",
+                "3",
+                "4"
+            ],
+            "answer": "Option 1",
+            "description": "from concept discription"
+        },
+        {
+            "q": "Total number of inputs in a full adder is __________",
+            "option": [
+                "3",
+                "4",
+                "5"
+            ],
+            "answer": "Option 1",
+            "description": "from concept discription"
+        },
+        {
+            "q": "In which operation carry is obtained?",
+            "option": [
+                "Addition",
+                "Subtraction",
+                "multiplication"
+            ],
+            "answer": "Option 1",
+            "description": "In addition, carry is obtained"
+        },
+        {
+            "q": " If A and B are the inputs of a half adder, the sum is given by __________?",
+            "option": [
+                "A AND B",
+                "A OR B",
+                "A XOR B"
+            ],
+            "answer": "Option 3",
+            "description": "If A and B are the inputs of a half adder, the sum is given by A XOR B, while the carry is given by A AND B."
+        },
+        {
+            "q": "If A and B are the inputs of a half adder, the carry is given by __________ ",
+            "option": [
+                "A AND B",
+                "A OR B",
+                "A XOR B"
+            ],
+            "answer": "Option 1",
+            "description": "If A and B are the inputs of a half adder, the carry is given by: A(AND)B, "
+        },
+        {
+            "q": " If A, B and C are the inputs of a full adder then the sum is given by __________",
+            "option": [
+                "A OR B AND C",
+                "A XOR B XOR C",
+                "A OR B OR C"
+            ],
+            "answer": "Option 2",
+            "description": "If A, B and C are the inputs of a full adder then the sum is given by A XOR B XOR C"
+        },
+        {
+            "q": "How many AND, OR and EXOR gates are required for the configuration of full adder?",
+            "option": [
+                "2, 1, 2",
+                "3, 1, 2",
+                "4, 0, 1"
+            ],
+            "answer": "Option 1",
+            "description": " There are 2 AND, 1 OR and 2 EXOR gates required for the configuration of full adder, provided using half adder. Otherwise, configuration of full adder would require 3 AND, 2 OR and 2 EXOR"
+        },
+        {
+            "q": "Half subtractor is used to perform subtraction of ___________? ",
+            "option": [
+                "2 bits",
+                "3 bits",
+                "4 bits"
+            ],
+            "answer": "Option 1",
+            "description": " Half subtractor is a combinational circuit which is used to perform subtraction of two bits, namely minuend and subtrahend and produces two outputs, borrow and difference."
+        },
+        {
+            "q": "For subtracting 1 from 0, we use to take a _______ from neighbouring bits?",
+            "option": [
+                "Carry",
+                "borrow",
+                "Input"
+            ],
+            "answer": "Option 2",
+            "description": "For subtracting 1 from 0, we use to take a borrow from neighbouring bits because carry is taken into consideration during addition process."
+        },
+        {
+            "q": " Let A and B is the input of a subtractor then the output will be ___________",
+            "option": [
+                "A XOR B",
+                "A AND B",
+                "A OR B"
+            ],
+            "answer": "Option 1",
+            "description": "The subtractor has two outputs BOROW and DIFFERENCE. Since, the difference output of a subtractor is given by AB’ + BA’ and this is the output of a XOR gate. So, the final difference output is AB’ + BA’."
+        },
+        {
+            "q": "Let A and B is the input of a subtractor then the borrow will be ___________?",
+            "option": [
+                "A AND B’",
+                "A’ AND B",
+                "A OR B"
+            ],
+            "answer": "Option 2",
+            "description": "The borrow of a subtractor is received through AND gate whose one input is inverted. On that basis the borrow will be (A’ AND B)."
+        },
+        {
+            "q": "What does minuend and subtrahend denotes in a subtractor?",
+            "option": [
+                "Its outputs",
+                "Its inputs",
+                "Borrow bits"
+            ],
+            "answer": "Option 2",
+            "description": "Minuend and subtrahend are the two bits of input of a subtractor. If A and B are the two inputs of a subtractor then A is called minuend and B as subtrahend."
+        },
+        {
+            "q": " Full subtractor is used to perform subtraction of ___________",
+            "option": [
+                "2 bits",
+                "3 bits",
+                "4 bits"
+            ],
+            "answer": "Option 2",
+            "description": "Full subtractor is used to perform subtraction of 3 bits, namely minuend bit, subtrahend bit and borrow from the previous stage. However, it also produces 2 outputs BORROW and DIFFERENCE."
+        },
+        {
+            "q": "The full subtractor can be implemented using ___________?",
+            "option": [
+                "Two XOR and an OR gates",
+                "Two half subtractors and an OR gate",
+                "Two multiplexers and an AND gate"
+            ],
+            "answer": "Option 2",
+            "description": "A full subtractor has 3 input bits and two outputs bits BORROW and DIFFERENCE. The full subtractor can be implemented using two half subtractors and an OR gate."
+        },
+        {
+            "q": "The output of a subtractor is given by (if A, B and X are the inputs).",
+            "option": [
+                "A AND B XOR X",
+                "A XOR B XOR X",
+                "A OR B NOR X"
+            ],
+            "answer": "Option 2",
+            "description": "The difference output of a subtractor is given by (if A, B and X are the inputs) A XOR B XOR X."
+        },
+        {
+            "q": "What is the major difference between half-adders and full-adders?",
+            "option": [
+                "Full-adders are made up of two half-adders",
+                "Full adders can handle double-digit numbers",
+                "Full adders have a carry input capability"
+            ],
+            "answer": "Option 3",
+            "description": "from the concept discription"
+        },
+        {
+            "q": "The binary subtraction of 0 – 0 = ?",
+            "option": [
+                "Difference = 0, borrow = 0",
+                "Difference = 1, borrow = 0",
+                "Difference = 1, borrow = 1"
+            ],
+            "answer": "Option 1",
+            "description": "The binary subtraction of 0 – 0 = 0. Thus, it’s difference is 0 as well as it’s borrow.  "
+        },
+        {
+            "q": "What are the two types of basic adder circuits?",
+            "option": [
+                "Sum and carry",
+                "Half-adder and full-adder",
+                "Asynchronous and synchronous"
+            ],
+            "answer": "Option 2",
+            "description": "There are two types of adder circuits: half-adder and full-adder. Half-Adder has 2 inputs while Full-Adder has 3 inputs. Whereas, both have two outputs SUM and CARRY."
+        },
+        {
+            "q": "When does the output of a NOR gate = 0?",
+            "option": [
+                "Whenever a 0 is present at an input",
+                "Only when all inputs = 0",
+                "Whenever a 1 is present at an input"
+            ],
+            "answer": "Option 3",
+            "description": "Based on logic gate concept"
+        },
+        {
+            "q": "For a 4-bit parallel adder, if the carry-in is connected to a logical HIGH, the result is ___________?",
+            "option": [
+                "That carry-out will always be HIGH",
+                "A one will be added to the final result",
+                "The carry-out is ignored"
+            ],
+            "answer": "Option 2",
+            "description": "For a 4-bit parallel adder, if the carry-in is connected to a logical HIGH, one will be added to the final result as a result because carry-in gives output as 1."
+        },
+        {
+            "q": "Fast-look-ahead carry circuits found in most 4-bit full-adder circuits which ___________?",
+            "option": [
+                "Determine sign and magnitude",
+                "Reduce propagation delay",
+                "Add a 1 to complemented inputs"
+            ],
+            "answer": "Option 2",
+            "description": "conceptual question"
+        },
+        {
+            "q": "What distinguishes the look-ahead-carry adder?",
+            "option": [
+                "It is slower than the ripple-carry adder",
+                "It is easier to implement logically than a full adder",
+                "It is faster than a ripple-carry adder"
+            ],
+            "answer": "Option 3",
+            "description": "Based on concept"
+        },
+        {
+            "q": "The number of switching functions of 3 variables are",
+            "option": [
+                "3",
+                "8",
+                "16"
+            ],
+            "answer": "Option 2",
+            "description": "2^3 is 8"
+        },
+        {
+            "q": "In a 4 input OR gate, the total number of High outputs for the 16 input states are",
+            "option": [
+                "16",
+                "15",
+                "14"
+            ],
+            "answer": "Option 2",
+            "description": "OR gate gives high output when one or more inputs are high"
+        }
+    ]
+}

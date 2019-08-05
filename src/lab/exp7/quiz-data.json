@@ -1,0 +1,265 @@
+{
+    "artciles": [
+        {
+            "quiztitle":"Quiz for Experiment Registers",
+            "containers":"5"
+        },
+        {
+            "q": " A register is defined as _?",
+            "option": [
+                "The group of latches for storing n-bit of information",
+                "The group of flip-flops suitable for storing one bit of information",
+                "The group of flip-flops suitable for storing binary information"
+            ],
+            "answer": "Option 3",
+            "description": "A register is defined as the group of flip-flops suitable for storing binary information. Each flip-flop is a binary cell capable of storing one bit of information. The data in a register can be transferred from one flip-flop to another"
+        },
+        {
+            "q": " The register is a type of _________? ",
+            "option": [
+                "Sequential circuit",
+                "Combinational circuit",
+                "CPU"
+            ],
+            "answer": "Option 1",
+            "description": "Register’s output depends on the past and present states of the inputs. The device which follows these properties is termed as a sequential circuit. Whereas, combinational circuits only depend on the present values of inputs"
+        },
+        {
+            "q": "How many types of registers are?",
+            "option": [
+                "2",
+                "3",
+                "4"
+            ],
+            "answer": "Option 3",
+            "description": "There are 4 types of shift registers, viz., Serial-In/Serial-Out, Serial-In/Parallel-Out, Parallel-In/Serial-Out and Parallel-In/Parallel-Out"
+        },
+        {
+            "q": "The main difference between a register and a counter is ___________?",
+            "option": [
+                "A register has no specific sequence of states",
+                "A counter has no specific sequence of states",
+                "A register has capability to store one bit of information but counter has n-bit"
+            ],
+            "answer": "Option 1",
+            "description": "The main difference between a register and a counter is that a register has no specific sequence of states except in certain specialised applications."
+        },
+        {
+            "q": "In D register, ‘D’ stands for ___________?",
+            "option": [
+                "Delay",
+                "Decrement",
+                "Data"
+            ],
+            "answer": "Option 3",
+            "description": "D stands for “data” in case of flip-flops and not delay. Registers are made of a group of flip-flops. "
+        },
+        {
+            "q": "Registers capable of shifting in one direction is ___________",
+            "option": [
+                "Universal shift register",
+                "Unidirectional shift register",
+                "Unipolar shift register"
+            ],
+            "answer": "Option 2",
+            "description": "The register capable of shifting in one direction is unidirectional shift register. The register capable of shifting in both directions is known as a bidirectional shift register."
+        },
+        {
+            "q": "A register that is used to store binary information is called ___________?",
+            "option": [
+                "Data register",
+                "Binary register",
+                "Shift register"
+            ],
+            "answer": "Option 2",
+            "description": "A register that is used to store binary information is called a binary register. A register in which data can be shifted is called shift register."
+        },
+        {
+            "q": " A shift register is defined as ___________?",
+            "option": [
+                "The register capable of shifting information to another register"
+                "The register capable of shifting information either to the right or to the left",
+                "The register capable of shifting information to the right only"
+            ],
+            "answer": "Option 2",
+            "description": "The register capable of shifting information either to the right or to the left is termed as shift register. A register in which data can be shifted only in one direction is called unidirectional shift register, while if data can shifted in both directions, it is known as a bidirectional shift register."
+        },
+        {
+            "q": "How many methods of shifting of data are available? ",
+            "option": [
+                "2",
+                "3",
+                "4"
+            ],
+            "answer": "Option 1",
+            "description": "There are two types of shifting of data are available and these are serial shifting & parallel shifting."
+        },
+        {
+            "q": "In serial shifting method, data shifting occurs ____________?",
+            "option": [
+                "One bit at a time",
+                "simultaneously",
+                "Two bit at a time"
+            ],
+            "answer": "Option 1",
+            "description": "As the name suggests serial shifting, it means that data shifting will take place one bit at a time for each clock pulse in a serial fashion. While in parallel shifting, shifting will take place with all bits simultaneously for each clock pulse in a parallel fashion."
+        },
+        {
+            "q": " In a parallel in/parallel out shift register, D0 = 1, D1 = 1, D2 = 1, and D3 = 0. After three clock pulses, the data outputs are ________?",
+            "option": [
+                "0111",
+                "1000",
+                "1001"
+            ],
+            "answer": "Option 3",
+            "description": "Stored nibble | waiting nibble
+            0111 | 1110, Initially
+            111 | 1100, 1st pulse
+            11 | 1001, 2nd pulse."
+        },
+        {
+            "q": "In a parallel in/parallel out shift register, D0 = 1, D1 = 1, D2 = 1, and D3 = 0. After three clock pulses, the data outputs are ________",
+            "option": [
+                "1110",
+                "0001",
+                "1100"
+            ],
+            "answer": "Option 2",
+            "description": " Parallel in parallel out gives the same output as input. Thus, after three clock pulses, the data outputs are 0001."
+        },
+        {
+            "q": "The group of bits 10110111 is serially shifted (right-most bit first) into an 8-bit parallel output shift register with an initial state 11110000. After two clock pulses, the register contains",
+            "option": [
+                "10110111",
+                "11110000",
+                "11111100"
+            ],
+            "answer": "Option 3",
+            "description": ": After first clock pulse, the register contains 11111000. After second clock pulse, the register would contain 11111100. Since, the bits are shifted to the right at every clock pulse."
+        },
+        {
+            "q": " To operate correctly, starting a ring shift counter requires __________?",
+            "option": [
+                "Clearing all the flip-flops",
+                "Presetting one flip-flop and clearing all others",
+                "Clearing one flip-flop and presetting all others"
+            ],
+            "answer": "Option 2",
+            "description": "In Ring counter, the feedback of the output of the FF is fed to the same FF’s input. To operate correctly, starting a ring shift counter requires presetting one flip-flop and clearing all others so that it can shift to the next bit."
+        },
+        {
+            "q": " How many clock pulses will be required to completely load serially a 5-bit shift register?",
+            "option": [
+                "3",
+                "4",
+                "5"
+            ],
+            "answer": "Option 3",
+            "description": "A register is a collection of FFS. To load a bit, we require 1 clock pulse for 1 shift register. So, for 5-bit shift register we would require of 5 clock pulses."
+        },
+        {
+            "q": "How is an strobe signal used when serially loading a shift register?",
+            "option": [
+                "To turn the register on and off",
+                "To control the number of clocks",
+                "To determine which output Qs are used"
+            ],
+            "answer": "Option 3",
+            "description": "Input bits can have only two values i.e one or zero"
+        },
+        {
+            "q": "4 to 1 mux would have",
+            "option": [
+                "2 inputs",
+                "3 inputs",
+                "4 inputs"
+            ],
+            "answer": "Option 2",
+            "description": "A strobe is used to validate the availability of data on the data line. It (an auxiliary signal used to help synchronize the real data in an electrical bus when the bus components have no common clock) signal is used to control the number of clocks during serially loading a shift register."
+        },
+        {
+            "q": " What is the difference between a ring shift counter and a Johnson shift counter?",
+            "option": [
+                "Data selector",
+                "parallel adder",
+                "Coder"
+            ],
+            "answer": "Option 3",
+            "description": "Multiplexer has n lines called select lines and takes 2^n input to select a single output "
+        },
+        {
+            "q": "Multiplexing means transmitting a large number of information units over",
+            "option": [
+               " A ring is faster",
+                "The feedback is reversed",
+                "The Johnson is faster"
+            ],
+            "answer": "Option 2",
+            "description": " A ring counter is a shift register (a cascade connection of flip-flops) with the output of the last one connected to the input of the first, that is, in a ring. Whereas, a Johnson counter (or switchtail ring counter, twisted-ring counter, walking-ring counter, or Moebius counter) is a modified ring counter, where the output from the last stage is inverted and fed back as input to the first stage."
+        },
+        {
+            "q": "Based on how binary information is entered or shifted out, shift registers are classified into _______ categories.?",
+            "option": [
+                "2",
+                "3",
+                "4"
+            ],
+            "answer": "Option 3",
+            "description": "The registers in which data can be shifted serially or parallelly are known as shift registers. Based on how binary information is entered or shifted out, shift registers are classified into 4 categories, viz., Serial-In/Serial-Out(SISO), Serial-In/Parallel-Out (SIPO), Parallel-In/Serial-Out (PISO), Parallel-In/Parallel-Out (PIPO)."
+        },
+        {
+            "q": " How can parallel data be taken out of a shift register simultaneously?",
+            "option": [
+                "Use the Q output of the last FF",
+                "Tie all of the Q outputs together",
+                "Use the Q output of each FF"
+            ],
+            "answer": "Option 3",
+            "description": "Because no other flip-flops are connected with the output Q, therefore one can use the Q out of each FF to take out parallel data."
+        },
+        {
+            "q": "The full form of SIPO is ___________",
+            "option": [
+                "Serial-in Parallel-out",
+                "Parallel-in Serial-out",
+                "Serial-in Serial-out"
+            ],
+            "answer": "Option 1",
+            "description": "SIPO is always known as Serial-in Parallel-out."
+        },
+        {
+            "q": "The group of bits 11001 is serially shifted (right-most bit first) into a 5-bit parallel output shift register with an initial state 01110. After three clock pulses, the register contains ________",
+            "option": [
+                "00001",
+                "00101",
+                "00110"
+            ],
+            "answer": "Option 2",
+            "description": " LSB bit is inverted and feed back to MSB:
+            01110->initial
+            10111->first clock pulse
+            01011->second
+            00101->third."
+        },
+        {
+            "q": "A shift register that will accept a parallel input or a bidirectional serial load and internal shift features is called as?",
+            "option": [
+                "End around",
+                "Universal",
+                "Conversion"
+            ],
+            "answer": "Option 2",
+            "description": "A shift register can shift it’s data either left or right. The universal shift register is capable of shifting data left, right and parallel load capabilities."
+        },
+        {
+            "q": "What is meant by parallel load of a shift register?",
+            "option": [
+                "All FFs are preset with data",
+                "Each FF is loaded with data, one at a time",
+                "Parallel shifting of data"
+            ],
+            "answer": "Option 1",
+            "description": " At Preset condition, outputs of flip-flops will be 1. Preset = 1 means Q = 1, thus input is definitely 1."
+        }
+    ]
+}

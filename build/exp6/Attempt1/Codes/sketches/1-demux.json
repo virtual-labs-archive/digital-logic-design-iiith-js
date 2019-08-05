@@ -1,0 +1,112 @@
+{
+  "caption": "DEMUX",
+  "gates": [
+    {
+      "x": "990",
+      "y": "360",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,true]"
+    },
+    {
+      "x": "990",
+      "y": "450",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,false]"
+    }
+  ],
+  "outputs": [
+    {
+      "x": "1080",
+      "y": "390",
+      "colr": "0",
+      "lbl": "0"
+    },
+    {
+      "x": "1080",
+      "y": "480",
+      "colr": "0",
+      "lbl": "1"
+    }
+  ],
+  "inputs": [
+    {
+      "x": "855",
+      "y": "375",
+      "framecount": "-1",
+      "clock": "false"
+    },
+    {
+      "x": "915",
+      "y": "345",
+      "istop": "true",
+      "lbl": "2º",
+      "framecount": "-1",
+      "clock": "false"
+    }
+  ],
+  "segments": [],
+  "wires": [
+    {
+      "x1": "960",
+      "y1": "480",
+      "x2": "990"
+    },
+    {
+      "x1": "1050",
+      "y1": "390",
+      "x2": "1080"
+    },
+    {
+      "x1": "1050",
+      "y1": "480",
+      "x2": "1080"
+    },
+    {
+      "x1": "930",
+      "y1": "420",
+      "x2": "990"
+    },
+    {
+      "x1": "930",
+      "y1": "510",
+      "x2": "990"
+    },
+    {
+      "x1": "960",
+      "y1": "390",
+      "y2": "480"
+    },
+    {
+      "x1": "870",
+      "y1": "390",
+      "x2": "990"
+    },
+    {
+      "x1": "930",
+      "y1": "360",
+      "y2": "510"
+    }
+  ],
+  "conpoints": [
+    {
+      "x": "960",
+      "y": "390"
+    },
+    {
+      "x": "930",
+      "y": "420"
+    }
+  ],
+  "diodes": [],
+  "customs": [],
+  "labels": [],
+  "segDisplays": []
+}

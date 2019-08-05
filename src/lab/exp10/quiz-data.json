@@ -1,0 +1,258 @@
+{
+    "artciles": [
+        {
+            "quiztitle":"Quiz for Experiment stste diagrams",
+            "containers":"5"
+        },
+        {
+            "q": "ASM chart is very same to?",
+            "option": [
+                "state diagram"
+                "flowchart",
+                "data box"
+            ],
+            "answer": "Option 1",
+            "description": "The data dlow is same in ASM chart and State diagrams"
+        },
+        {
+            "q": " Which mechanism allocates the binary value to the states in order to reduce the cost of the combinational circuits? ",
+            "option": [
+                "State Reduction",
+                "State Minimization",
+                "State Assignment"
+            ],
+            "answer": "Option 3",
+            "description": "No explanation"
+        },
+        {
+            "q": " According to Moore circuit, the output of synchronous sequential circuit depend/s on ______ of flip flop",
+            "option": [
+                "Past state",
+                "Present state",
+                "Next state"
+            ],
+            "answer": "Option 2",
+            "description": "No explanation"
+        },
+        {
+            "q": "Finite state machines are used for",
+            "option": [
+                "deterministic test patterns",
+                "algorithmic test patterns",
+                "random test patterns"
+            ],
+            "answer": "Option 2",
+            "description": "Finite state machines are used for algorithmic test pattern generation testing for the circuit under test"
+        },
+        {
+            "q": "most used element in state machines is______?",
+            "option": [
+                "flipflops",
+                "AND",
+                "OR"
+            ],
+            "answer": "Option 1",
+            "description": "To get into fliflop nextstate is required"
+        },
+        {
+            "q": "The output of a NOR gate is HIGH if ",
+            "option": [
+                "all inputs are HIGH",
+                "any input is LOW",
+                "all inputs are LOW"
+            ],
+            "answer": "Option 3",
+            "description": "logic gates based question"
+        },
+        {
+            "q": "If the input to a NOT gate is A and the output is X, then",
+            "option": [
+                "X = A",
+                "X = !A",
+                "X = 0"
+            ],
+            "answer": "Option 2",
+            "description": "logic gates based question"
+        },
+        {
+            "q": "One that is not present in the list of state table is",
+            "option": [
+                "present state",
+                "next state",
+                "preveous state"
+            ],
+            "answer": "Option 3",
+            "description": "preveous state"
+        },
+        {
+            "q": "The output of an XOR gate is HIGH only when ",
+            "option": [
+                "both inputs = 0",
+                "both inputs = 1",
+                "the two inputs are unequal"
+            ],
+            "answer": "Option 3",
+            "description": "XOR gate is based on this concept"
+        },
+        {
+            "q": "The format used to present the logic output for the various combinations of logic inputs to a gate is called a(n):",
+            "option": [
+                "Boolean constant",
+                "Boolean variable",
+                "truth table"
+            ],
+            "answer": "Option 3",
+            "description": "Based on Concept"
+        },
+        {
+            "q": "If a 3-input AND gate has eight input possibilities, how many of those possibilities will result in a HIGH output?",
+            "option": [
+                "1",
+                "2",
+                "&"
+            ],
+            "answer": "Option 1",
+            "description": "Output will be 1 1 and 1 only once"
+        },
+        {
+            "q": "The Boolean expression for a 3-input AND gate is",
+            "option": [
+                "X = AB",
+                "X = ABC",
+                "X = A + B + C"
+            ],
+            "answer": "Option 2",
+            "description": "three inputs will give ABC"
+        },
+        {
+            "q": "If A is LOW or B is LOW or BOTH are LOW, then X is LOW. If A is HIGH and B is HIGH, then X is HIGH. These rules specify the operation of a(n)",
+            "option": [
+                "AND Gate",
+                "OR Gate",
+                "NAND Gate"
+            ],
+            "answer": "Option 1",
+            "description": "Based on logic gates concept"
+        },
+        {
+            "q": "The number of input combinations for a 4-input gate is",
+            "option": [
+                "4",
+                "8",
+                "16"
+            ],
+            "answer": "Option 3",
+            "description": "1 input will have 2 possible outputs 1 0r 0 so 2^4 = 16"
+        },
+        {
+            "q": "Sequential circuit is also called___?",
+            "option": [
+                "encoder",
+                "flip-flop",
+                "state machine"
+            ],
+            "answer": "Option 3",
+            "description": "because of its feedback nature"
+        },
+        {
+            "q": "A basic S-R flip-flop can be constructed by cross-coupling of which basic logic gates?",
+            "option": [
+                "AND or OR gates",
+                "XOR or XNOR gates",
+                "NOR or NAND gates"
+            ],
+            "answer": "Option 3",
+            "description": " The basic S-R flip-flop can be constructed by cross coupling of NOR or NAND gates. Cross coupling means the output of second gate is fed to the input of first gate and vice-versa. "
+        },
+        {
+            "q": "4 to 1 mux would have",
+            "option": [
+                "2 inputs",
+                "3 inputs",
+                "4 inputs"
+            ],
+            "answer": "Option 3",
+            "description": "Based on mux concept"
+        },
+        {
+            "q": "The logic circuits whose outputs at any instant of time depends only on the present input but also on the past outputs are called",
+            "option": [
+                "Combinational circuits",
+                "Sequential circuits",
+                "Latches"
+            ],
+            "answer": "Option 2",
+            "description": "In sequential circuits, the output signals are fed back to the input side. So, The circuits whose outputs at any instant of time depends only on the present input but also on the past outputs are called sequential circuits. Unlike sequential circuits, if output depends only on the present state, then it’s known as combinational circuits."
+        },
+        {
+            "q": "Whose operations are more faster among the following?",
+            "option": [
+                "Combinational circuits",
+                "Sequential circuits",
+                "Latches"
+            ],
+            "answer": "Option 1",
+            "description": "No feedback onlu present state input"
+        },
+        {
+            "q": "When does the output of a NOR gate = 0?",
+            "option": [
+                "Whenever a 0 is present at an input",
+                "Only when all inputs = 0",
+                "Whenever a 1 is present at an input"
+            ],
+            "answer": "Option 3",
+            "description": "Based on logic gate concept"
+        },
+        {
+            "q": "How many types of sequential circuits are?",
+            "option": [
+                "2",
+                "3",
+                "4"
+            ],
+            "answer": "Option 1",
+            "description": "Synchronus And Asynchronous"
+        },
+        {
+            "q": "If Q = 0, the output is said to be ___________",
+            "option": [
+                "set",
+                "reset",
+                "preveous state"
+            ],
+            "answer": "Option 1",
+            "description": "If Q = 0, the output is said to be set and reset for Q’ = 1."
+        },
+        {
+            "q": "The number of digits in octal system is",
+            "option": [
+                "8",
+                "7",
+                "9"
+            ],
+            "answer": "Option 1",
+            "description": "Based on concept"
+        },
+        {
+            "q": "The number of switching functions of 3 variables are",
+            "option": [
+                "3",
+                "8",
+                "16"
+            ],
+            "answer": "Option 2",
+            "description": "2^3 is 8"
+        },
+        {
+            "q": "In a 4 input OR gate, the total number of High outputs for the 16 input states are",
+            "option": [
+                "16",
+                "15",
+                "14"
+            ],
+            "answer": "Option 2",
+            "description": "OR gate gives high output when one or more inputs are high"
+        }
+    ]
+}
