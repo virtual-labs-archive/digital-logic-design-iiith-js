@@ -1,4 +1,4 @@
-#+TITLE: Index to Pattern Recognition
+#+TITLE: Index to Digital Logic Design
 #+AUTHOR: VLEAD
 #+DATE: [2019-06-24 Mon]
 #+SETUPFILE: ./org-templates/level-0.org
