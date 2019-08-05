@@ -1,3 +1,3 @@
-Pattern recognition
+Digital Logic Design
 
 Refer [[./src/index.org][index.org]]
